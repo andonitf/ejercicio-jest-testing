@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/components/row specs should render the component as expected when passing required properties 1`] = `
+<tr>
+  <td>
+    <img
+      src="http://fake-server-url/member/avatar/url/"
+      style={
+        Object {
+          "maxWidth": "10rem",
+        }
+      }
+    />
+  </td>
+  <td>
+    <span>
+      1
+    </span>
+  </td>
+  <td>
+    <span>
+      User Name 1
+    </span>
+  </td>
+</tr>
+`;

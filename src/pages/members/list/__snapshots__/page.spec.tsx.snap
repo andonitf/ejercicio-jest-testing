@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/page specs should render the MemberListPage component as expected when passing required properties 1`] = `
+<MemberListPage
+  members={
+    Array [
+      Object {
+        "avatarUrl": "http://fake-test-url/member/1",
+        "id": 1,
+        "name": "Login 1",
+      },
+      Object {
+        "avatarUrl": "http://fake-test-url/member/2",
+        "id": 2,
+        "name": "Login 2",
+      },
+    ]
+  }
+>
+  <h2>
+    Members
+  </h2>
+  <Table
+    members={
+      Array [
+        Object {
+          "avatarUrl": "http://fake-test-url/member/1",
+          "id": 1,
+          "name": "Login 1",
+        },
+        Object {
+          "avatarUrl": "http://fake-test-url/member/2",
+          "id": 2,
+          "name": "Login 2",
+        },
+      ]
+    }
+  >
+    <table
+      className="table table-striped"
+    >
+      <Component>
+        <thead>
+          <tr>
+            <th>
+              Avatar
+            </th>
+            <th>
+              Id
+            </th>
+            <th>
+              Name
+            </th>
+          </tr>
+        </thead>
+      </Component>
+      <Body
+        members={
+          Array [
+            Object {
+              "avatarUrl": "http://fake-test-url/member/1",
+              "id": 1,
+              "name": "Login 1",
+            },
+            Object {
+              "avatarUrl": "http://fake-test-url/member/2",
+              "id": 2,
+              "name": "Login 2",
+            },
+          ]
+        }
+      >
+        <tbody>
+          <Row
+            key="1"
+            member={
+              Object {
+                "avatarUrl": "http://fake-test-url/member/1",
+                "id": 1,
+                "name": "Login 1",
+              }
+            }
+          >
+            <tr>
+              <td>
+                <img
+                  src="http://fake-test-url/member/1"
+                  style={
+                    Object {
+                      "maxWidth": "10rem",
+                    }
+                  }
+                />
+              </td>
+              <td>
+                <span>
+                  1
+                </span>
+              </td>
+              <td>
+                <span>
+                  Login 1
+                </span>
+              </td>
+            </tr>
+          </Row>
+          <Row
+            key="2"
+            member={
+              Object {
+                "avatarUrl": "http://fake-test-url/member/2",
+                "id": 2,
+                "name": "Login 2",
+              }
+            }
+          >
+            <tr>
+              <td>
+                <img
+                  src="http://fake-test-url/member/2"
+                  style={
+                    Object {
+                      "maxWidth": "10rem",
+                    }
+                  }
+                />
+              </td>
+              <td>
+                <span>
+                  2
+                </span>
+              </td>
+              <td>
+                <span>
+                  Login 2
+                </span>
+              </td>
+            </tr>
+          </Row>
+        </tbody>
+      </Body>
+    </table>
+  </Table>
+</MemberListPage>
+`;

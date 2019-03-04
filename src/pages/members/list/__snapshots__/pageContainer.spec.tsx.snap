@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/members/list/pageContainer specs should render as expect when passing state 1`] = `
+<PageContainer
+  fetchMembers={[Function]}
+  members={Array []}
+/>
+`;
