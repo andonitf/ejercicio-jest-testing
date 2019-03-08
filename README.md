@@ -1,5 +1,5 @@
 # 01 Jest testing
-![Travis (.org) branch](https://img.shields.io/travis/andonitf/ejercicio-jest-testing/master.svg?style=popout)
+![Travis (.org) branch](https://img.shields.io/travis/andonitf/ejercicio-jest-testing/master.svg?style=popout) [![Coverage Status](https://coveralls.io/repos/github/andonitf/ejercicio-jest-testing/badge.svg?branch=master)](https://coveralls.io/github/andonitf/ejercicio-jest-testing?branch=master)
 
 ## What to do
 
