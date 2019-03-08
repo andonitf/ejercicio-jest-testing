@@ -1,5 +1,5 @@
 # 01 Jest testing
-
+![Travis (.org) branch](https://img.shields.io/travis/andonitf/ejercicio-jest-testing/master.svg?style=popout)
 
 ## What to do
 
