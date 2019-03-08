@@ -1,21 +1,38 @@
-# 00 Boilerplate
+# 01 Jest testing
 
-In this sample we are going to setup the basic plumbing to "build" our project and launch it in a dev server.
 
-# Steps
+## What to do
 
-- We are going to add a basic webpack configuration (splitted into production and development) based in TypeScript, Webpack and React.
+Do unit tests to:
 
-- Then we will add components that we had used on [`react-by-sample`](https://github.com/Lemoncode/react-by-sample):
-    - 12 TableHttp sample
-    - 15 LoginForm sample
-    - 16 Validation sample
+- ./src/pages/members/list/mappers
+- ./src/pages/members/list/actions
+- ./src/pages/members/list/reducers
+- ./src/pages/members/list/components
+- ./src/pages/members/list/pageContainer
 
-- Add basic redux plumbing.
+## Bonus points
 
-# About Lemoncode
+- Use reselect methods and do TDD (Test-Drive Development) to login page.
+- Configure code coverage and threshold not to permit code merge if not pass x%.
+- Create a repository and configure Travis CI to works with it.
 
-We are a team of long-term experienced freelance developers, established as a group in 2010.
-We specialize in Front End technologies and .NET. [Click here](http://lemoncode.net/services/en/#en-home) to get more info about us.
+## Steps to build it
 
-For the LATAM/Spanish audience we are running an Online Front End Master degree, more info: http://lemoncode.net/master-frontend
+- `npm install` to install previous sample packages:
+
+```bash
+npm install
+```
+
+## Steps to run tests
+
+- Jest test commands:
+  - `npm test`: to single run
+  - `npm run test:watch`: to run all specs after changes.
+  - `npm run test:coverage`: to run code coverage in text mode.
+  - `npm run test:coverage:html`: to run code coverage in html mode.
+
+## Code coverage
+
+Code coverage report can be found [here](https://cursos-repo.gitlab.io/lemoncode/testing/jest-testing)
