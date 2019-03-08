@@ -13,7 +13,8 @@
     "test": "jest -c ./config/test/jest.json --verbose",
     "test:coverage": "rimraf coverage && jest -c ./config/test/jest.coverage.json --verbose",
     "test:coverage:html": "rimraf coverage && jest -c ./config/test/jest.coverage.html.json --verbose",
-    "test:watch": "jest -c ./config/test/jest.json --verbose --watchAll -i"
+    "test:watch": "jest -c ./config/test/jest.json --verbose --watchAll -i",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "author": "Lemoncode",
   "license": "MIT",
@@ -48,6 +49,7 @@
     "@types/redux-mock-store": "^1.0.0",
     "@types/webpack-env": "^1.13.6",
     "awesome-typescript-loader": "^5.2.1",
+    "coveralls": "^3.0.3",
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.1",
     "deep-freeze": "0.0.1",
