@@ -1,4 +1,5 @@
 node_modules
+coverage
 .DS_Store
 dist/
 typings/
@@ -6,13 +7,11 @@ typings/
 .idea/
 */src/**/*.js
 */src/**/*.js.map
-*/coverage/
 package-lock.json
 storybook-static/
 build/
 public/
 .nyc_output/
-coverage/
 yarn.lock
 .awcache
 coverage
