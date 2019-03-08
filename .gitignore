@@ -1,2 +1,17 @@
 node_modules
+.DS_Store
+dist/
+typings/
+*.orig
+.idea/
+*/src/**/*.js
+*/src/**/*.js.map
+*/coverage/
+package-lock.json
+storybook-static/
+build/
+public/
+.nyc_output/
+coverage/
+yarn.lock
 .awcache
